@@ -1,8 +1,12 @@
 # Homebrew tap for Backchannel
 
 ```sh
+brew trust --cask breed007/backchannel/backchannel
 brew install --cask breed007/backchannel/backchannel
 ```
+
+Homebrew loads casks from third-party taps only after you trust them; the
+first line trusts this one cask, not the whole tap.
 
 Backchannel for Mac is Signal Desktop with Backchannel's chat page built in.
 Apple Silicon, macOS 14 or later. Releases:
